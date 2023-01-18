@@ -1,2 +1,2 @@
-# fdp-infrastructure
-Infrastructure for Federated Data Platform
+# config-azure-app-infrastructure
+Infrastructure configuration for different application infrastructure
