@@ -1,0 +1,27 @@
+name: app-infra/fdp/dev/westus
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'app-infra/fdp/dev/westus/**'
+  workflow_dispatch:
+    inputs:
+      tf-action:
+        type: choice
+        default: apply
+        description: Apply/Destroy Infrastructure
+        options: 
+        - apply
+        - destroy
+
+jobs:
+
+  infra-deploy:
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
+    with:
+      tf-module-version: '1.0.0'
+      tf-plan-gh-env: 'fedp-tf-plan-non-prod'
+      tf-apply-gh-env: 'fedp-tf-apply-non-prod'
+    secrets: inherit
