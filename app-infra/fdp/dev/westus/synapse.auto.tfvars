@@ -2,25 +2,20 @@ synapse_configs = {
   resource_group_name = "ozi-u7-np-rg-fedp-d001"
   firewall_rules = [
     {
-      name = "PricewaterhouseCoopersUS"
+      name = "ALLOW-PWC-US"
       start_ip_address = "155.201.0.0"
       end_ip_address = "155.201.255.255"
     },
     {
-      name : "UKExternalFacingIPsRange1"
+      name : "ALLOW-PWC-UK-01"
       start_ip_address : "155.201.34.0"
       end_ip_address : "155.201.35.255"
     }, 
     {
-      name : "UKExternalFacingIPsRange2"
+      name : "ALLOW-PWC-UK-02"
       start_ip_address : "164.143.0.0"
       end_ip_address : "164.143.255.255"
     },
-    {
-      name : "PricewaterhouseCoopersUK"
-      start_ip_address : "164.143.240.1"
-      end_ip_address : "164.143.247.254"
-    }
   ]
   workspaces = [{
     name                 = "zu7fedpsyd001"
