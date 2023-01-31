@@ -22,7 +22,7 @@ jobs:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@fix-workflow
     with:
       tf-module-name: 'app-infra'
-      tf-module-version: '2.0.0'
+      tf-module-version: '2.1.0'
       tf-vars-directory: 'fdp/dev/westus'
       tf-plan-gh-env: 'fedp-tf-plan-non-prod'
       tf-apply-gh-env: 'fedp-tf-apply-non-prod'
