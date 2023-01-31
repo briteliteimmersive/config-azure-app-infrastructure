@@ -4,7 +4,7 @@ storage_acc_configs = {
     name           = "oziu7npcsafedpd001"
     is_hns_enabled = true
     containers     = [{
-      name = "cipilot-poc"
+      name = "ci-pilot-poc"
     }]
   }]
   role_assignments = [{
