@@ -19,7 +19,7 @@ on:
 jobs:
 
   infra-deploy:
-    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@fix-workflow
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
     with:
       tf-module-name: 'app-infra'
       tf-module-version: '2.1.0'
