@@ -16,14 +16,14 @@ global_configs = {
     vnet_name                = "ozi-gu-np-sub001-u7-vnt-n001"
     vnet_resource_group_name = "ozi-u7-np-rg-infr-n001"
   }
-  network_rules = [{
+  network_rules = {
     public_ip_ranges = [
       "155.201.0.0/16",   ## PwC US
       "155.201.34.0/23",  ## PwC UK
       "164.143.0.0/16"    ## PwC UK
     ]
     subnet_ids       = []
-  }]
+  }
   #   central_log_analytics_workspace = {
   #     name = "value"
   #     resource_group_name = "value"
