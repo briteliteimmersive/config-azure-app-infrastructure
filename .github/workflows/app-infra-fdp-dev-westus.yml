@@ -1,4 +1,4 @@
-name: app-infra/fdp/dev/westus
+name: fdp/dev/westus
 
 on:
   push:
@@ -19,9 +19,11 @@ on:
 jobs:
 
   infra-deploy:
-    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@fix-workflow
     with:
-      tf-module-version: '1.0.0'
+      tf-module-name: 'app-infra'
+      tf-module-version: '2.1.0'
+      tf-vars-directory: 'fdp/dev/westus'
       tf-plan-gh-env: 'fedp-tf-plan-non-prod'
       tf-apply-gh-env: 'fedp-tf-apply-non-prod'
     secrets: inherit
