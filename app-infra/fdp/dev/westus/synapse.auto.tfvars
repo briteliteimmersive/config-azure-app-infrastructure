@@ -15,7 +15,7 @@ synapse_configs = {
     spark_pools = [
       {
         name             = "defaultpool"
-        node_size_family = "None"
+        node_size_family = "MemoryOptimized"
         node_size        = "Small"
         auto_pause = {
           delay_in_minutes = 15
