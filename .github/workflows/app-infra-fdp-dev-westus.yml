@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'fdp/dev/westus/**'
+      - 'app-infra/fdp/dev/westus/**'
   workflow_dispatch:
     inputs:
       tf-action:
