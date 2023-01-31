@@ -5,7 +5,7 @@ mssql_server_configs = {
     databases = [
       {
         name              = "ou7fedpsqd001-db01"
-        sku_name          = "S0"
+        sku_name          = "ElasticPool"
         elastic_pool_name = "dev-pool"
       }
     ]
