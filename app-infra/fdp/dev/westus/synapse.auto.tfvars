@@ -10,11 +10,16 @@ synapse_configs = {
       name : "ALLOW-PWC-UK-01"
       start_ip_address : "155.201.34.0"
       end_ip_address : "155.201.35.255"
-    }, 
+    },
     {
       name : "ALLOW-PWC-UK-02"
       start_ip_address : "164.143.0.0"
       end_ip_address : "164.143.255.255"
+    },
+    {
+      name : "ALLOW-PWC-UK-03"
+      start_ip_address : "62.204.63.0"
+      end_ip_address : "62.204.63.255"
     },
   ]
   workspaces = [{
