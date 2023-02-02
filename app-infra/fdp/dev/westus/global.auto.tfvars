@@ -20,10 +20,20 @@ global_configs = {
     public_ip_ranges = [
       "155.201.0.0/16",   ## PwC US
       "155.201.34.0/23",  ## PwC UK
-      "164.143.0.0/16"    ## PwC UK
+      "164.143.0.0/16",   ## PwC UK
+      "62.204.63.0/24"    ## PwC UK
     ]
     subnet_ids       = []
   }
+  role_assignments = [ 
+    {
+      role_definition_id = "value"
+      object_ids = [
+        "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
+        "840289cf-af62-4757-8005-2bdfd5b2779c" ## Fnb_Pwc
+      ]
+    } 
+  ]
   #   central_log_analytics_workspace = {
   #     name = "value"
   #     resource_group_name = "value"
@@ -35,9 +45,4 @@ global_configs = {
   #     vnet_name = "value"
   #     vnet_resource_group_name = "value"
   #   }
-
-  #   role_assignments = [ {
-  #     object_ids = [ "value" ]
-  #     role_definition_id = "value"
-  #   } ]
 }
