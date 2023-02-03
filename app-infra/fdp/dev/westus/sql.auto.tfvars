@@ -28,9 +28,9 @@ mssql_server_configs = {
   }]
   firewall_rules = [
     {
-      name = "ALLOW-PWC-US"
+      name             = "ALLOW-PWC-US"
       start_ip_address = "155.201.0.0"
-      end_ip_address = "155.201.255.255"
+      end_ip_address   = "155.201.255.255"
     },
     {
       name : "ALLOW-PWC-UK-01"

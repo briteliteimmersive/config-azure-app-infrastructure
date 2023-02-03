@@ -18,20 +18,20 @@ global_configs = {
   }
   network_rules = {
     public_ip_ranges = [
-      "155.201.0.0/16",   ## PwC US
-      "155.201.34.0/23",  ## PwC UK
-      "164.143.0.0/16",   ## PwC UK
-      "62.204.63.0/24"    ## PwC UK
+      "155.201.0.0/16",  ## PwC US
+      "155.201.34.0/23", ## PwC UK
+      "164.143.0.0/16",  ## PwC UK
+      "62.204.63.0/24"   ## PwC UK
     ]
-    subnet_ids       = []
+    subnet_ids = []
   }
-  role_assignments = [ 
+  role_assignments = [
     {
       role_definition_id = "ba92f5b4-2d11-453d-a403-e96b0029c9fe" # Storage Blob Data Contributor
       object_ids = [
         "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
         "ff7df4b8-4d60-4690-b379-859dbc204046", # Microsoft Customer Insights
-        "840289cf-af62-4757-8005-2bdfd5b2779c" ## Fnb_Pwc
+        "840289cf-af62-4757-8005-2bdfd5b2779c"  ## Fnb_Pwc
       ]
     },
     {
