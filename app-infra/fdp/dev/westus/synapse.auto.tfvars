@@ -53,5 +53,14 @@ synapse_configs = {
         ]
       }
     ]
+    workspace_linked_services = [
+      {
+        resource_name = "zu7fedpkvd001"
+        type          = "AzureKeyVault"
+        type_properties = {
+          baseUrl = "https://zu7fedpkvd001.vault.azure.net/"
+        }
+      }
+    ]
   }]
 }
