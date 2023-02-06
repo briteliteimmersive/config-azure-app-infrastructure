@@ -51,6 +51,13 @@ synapse_configs = {
           "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
           "840289cf-af62-4757-8005-2bdfd5b2779c"  ## Fnb_Pwc
         ]
+      },
+      {
+        role_name = "Synapse Credential User"
+        object_ids = [
+          "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
+          "840289cf-af62-4757-8005-2bdfd5b2779c"  ## Fnb_Pwc
+        ]
       }
     ]
     workspace_linked_services = [
