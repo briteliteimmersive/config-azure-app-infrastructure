@@ -25,6 +25,10 @@ mssql_server_configs = {
         }
       }
     ]
+    azuread_administrator = {
+      login_username = "abhagwat@ocvibe.com"
+      object_id      = "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+    }
   }]
   firewall_rules = [
     {
