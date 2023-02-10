@@ -1,0 +1,29 @@
+name: litehouse/dev/westus
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'app-infra/litehouse/dev/westus/**'
+  workflow_dispatch:
+    inputs:
+      tf-action:
+        type: choice
+        default: apply
+        description: Apply/Destroy Infrastructure
+        options: 
+        - apply
+        - destroy
+
+jobs:
+
+  infra-deploy:
+    uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
+    with:
+      tf-module-name: 'app-infra'
+      tf-module-version: '3.0.0'
+      tf-vars-directory: 'litehouse/dev/westus'
+      tf-plan-gh-env: 'lths-tf-plan-non-prod'
+      tf-apply-gh-env: 'lths-tf-apply-non-prod'
+    secrets: inherit
