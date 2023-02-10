@@ -24,6 +24,6 @@ jobs:
       tf-module-name: 'app-infra'
       tf-module-version: '3.0.0'
       tf-vars-directory: 'litehouse/dev/westus'
-      tf-plan-gh-env: 'fedp-tf-plan-non-prod'
-      tf-apply-gh-env: 'fedp-tf-apply-non-prod'
+      tf-plan-gh-env: 'lths-tf-plan-non-prod'
+      tf-apply-gh-env: 'lths-tf-apply-non-prod'
     secrets: inherit
