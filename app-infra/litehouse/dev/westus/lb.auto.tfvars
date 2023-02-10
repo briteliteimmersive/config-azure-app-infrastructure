@@ -7,7 +7,7 @@ lb_configs = {
     }]
     frontend_ip_configuration = [{
       name = "backend-lths-u7-lbi-d001"
-      private_ip_address            = "value"
+      private_ip_address            = "172.26.16.10"
       subnet_name = "ozi-gu-np-sub002-u7-snt-lths-d001"
     }]
     probes = [
