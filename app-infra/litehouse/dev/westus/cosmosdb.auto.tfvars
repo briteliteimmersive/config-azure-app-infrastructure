@@ -10,7 +10,7 @@ cosmosdb_configs = {
     }
     mongodb_databases = [
       {
-        name        = "lthsdb"
+        name        = "lths-db01"
         collections = []
       }
     ]
