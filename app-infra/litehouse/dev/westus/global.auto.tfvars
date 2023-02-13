@@ -22,28 +22,16 @@ global_configs = {
     ]
     subnet_ids = []
   }
-  # role_assignments = [
-  #   {
-  #     role_definition_id = "ba92f5b4-2d11-453d-a403-e96b0029c9fe" # Storage Blob Data Contributor
-  #     object_ids = [
-  #       "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
-  #       "ff7df4b8-4d60-4690-b379-859dbc204046", # Microsoft Customer Insights
-  #       "840289cf-af62-4757-8005-2bdfd5b2779c"  ## Fnb_Pwc
-  #     ]
-  #   },
-  #   {
-  #     role_definition_id = "b86a8fe4-44ce-4948-aee5-eccb2c155cd7" # Key Vault Secrets Officer
-  #     object_ids = [
-  #       "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
-  #     ]
-  #   },
-  #   {
-  #     role_definition_id = "4633458b-17de-408a-b874-0445c86b69e6" # Key Vault Secrets User
-  #     object_ids = [
-  #       "840289cf-af62-4757-8005-2bdfd5b2779c", ## Fnb_Pwc
-  #     ]
-  #   },
-  # ]
+  role_assignments = [
+    {
+      role_definition_id = "0663725c-fd2f-567b-bb4c-fbb65771a97b" ## Application Developer Role
+      object_ids = [
+        "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
+        "7c0b1757-e9a3-4efb-8d35-05f237773f97", ## mveloso@ocvibe.com
+        "295f70b2-ed69-42d3-bd76-c1bb9be7cefe"  ## riyer@ocvibe.com
+      ]
+    },
+  ]
   #   central_log_analytics_workspace = {
   #     name = "value"
   #     resource_group_name = "value"
