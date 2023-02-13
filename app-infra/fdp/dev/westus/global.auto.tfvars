@@ -41,11 +41,11 @@ global_configs = {
       ]
     }
   ]
-  #   central_log_analytics_workspace = {
-  #     name = "value"
-  #     resource_group_name = "value"
-  #     subscription_id = "value"
-  #   }
+  central_log_analytics_workspace = {
+    subscription_id     = "20aa675b-8108-4d16-9202-9ffe0c35cf57"
+    name                = "zu7mhublop001"
+    resource_group_name = "ozi-u7-gs-rg-mhub-p003"
+  }
   #   deployment_agent = {
   #     subnet_name = "value"
   #     subscription_id = "value"
