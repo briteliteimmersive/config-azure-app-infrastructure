@@ -10,8 +10,17 @@ linux_vm_configs = {
       version   = "latest"
     }
   }
-  vms = [{
-    hostname   = "zu7ilthslvd001"
-    ip_address = "172.26.16.4"
-  }]
+  vms = [
+    ## CI/CD automation agent VM
+    {
+      subnet_name = "ozi-gu-np-sub002-u7-snt-infr-n001"
+      hostname   = "zu7idvoplvd001"
+      ip_address = "172.26.16.244"
+    },
+    ## Litehouse VM
+    {
+      hostname   = "zu7ilthslvd001"
+      ip_address = "172.26.16.4"
+    },
+  ]
 }
