@@ -23,5 +23,12 @@ linux_vm_configs = {
       hostname   = "zu7ilthslvd001"
       ip_address = "172.26.16.4"
     },
+    ## Test VM
+    {
+      subnet_name = "ozi-gu-np-sub002-u7-snt-dvop-n001"
+      hostname    = "zu7ilthslvd012"
+      ip_address  = "172.26.16.245"
+      size        = "Standard_DS1_v2"
+    },
   ]
 }
