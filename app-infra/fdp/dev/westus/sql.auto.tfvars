@@ -1,5 +1,14 @@
 mssql_server_configs = {
   resource_group_name = "ozi-u7-np-rg-fedp-d001"
+  role_assignments = [
+      {
+        role_definition_id = "8e3af657-a8ff-443c-a75c-2fe8c4bcb635" ## Contributor
+        object_ids = [
+          "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+        ]
+      }
+  
+  ]
   servers = [{
     name = "ou7fedpsqd001"
     databases = [
