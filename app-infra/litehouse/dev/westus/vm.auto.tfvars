@@ -12,11 +12,12 @@ linux_vm_configs = {
   }
   vms = [
     ## CI/CD automation agent VM
-#     {
-#       subnet_name = "ozi-gu-np-sub002-u7-snt-infr-n001"
-#       hostname   = "zu7idvoplvd001"
-#       ip_address = "172.26.16.244"
-#     },
+    {
+      subnet_name = "ozi-gu-np-sub002-u7-snt-dvop-n001"
+      hostname    = "zu7idvoplvd001"
+      ip_address  = "172.26.16.244"
+      size        = "Standard_DS1_v2"
+    },
     ## Litehouse VM
     {
       hostname   = "zu7ilthslvd001"
