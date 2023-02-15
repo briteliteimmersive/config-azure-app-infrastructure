@@ -12,7 +12,10 @@ global_configs = {
     support-queue = "n/a"
   }
   app_network = {
-    subnets                  = ["ozi-gu-np-sub002-u7-snt-lths-d001", "ozi-gu-np-sub002-u7-snt-infr-n001"]
+    subnets                  = [
+      ## "ozi-gu-np-sub002-u7-snt-infr-n001", 
+      "ozi-gu-np-sub002-u7-snt-lths-d001"
+    ]
     vnet_name                = "ozi-gu-np-sub002-u7-vnt-n001"
     vnet_resource_group_name = "ozi-u7-np-rg-infr-n001"
   }
