@@ -13,7 +13,7 @@ global_configs = {
   }
   app_network = {
     subnets                  = [
-      ## "ozi-gu-np-sub002-u7-snt-infr-n001", 
+      "ozi-gu-np-sub002-u7-snt-dvop-n001", 
       "ozi-gu-np-sub002-u7-snt-lths-d001"
     ]
     vnet_name                = "ozi-gu-np-sub002-u7-vnt-n001"
