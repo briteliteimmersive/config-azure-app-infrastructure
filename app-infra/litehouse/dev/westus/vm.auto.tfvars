@@ -5,18 +5,18 @@ linux_vm_configs = {
     size        = "Standard_D2s_v3"
     source_image_reference = {
       publisher = "Canonical"
-      offer     = "0001-com-ubuntu-server-focal"
-      sku       = "20_04-lts"
+      offer     = "0001-com-ubuntu-server-jammy"
+      sku       = "22_04-lts"
       version   = "latest"
     }
   }
   vms = [
     ## CI/CD automation agent VM
-    {
-      subnet_name = "ozi-gu-np-sub002-u7-snt-infr-n001"
-      hostname   = "zu7idvoplvd001"
-      ip_address = "172.26.16.244"
-    },
+#     {
+#       subnet_name = "ozi-gu-np-sub002-u7-snt-infr-n001"
+#       hostname   = "zu7idvoplvd001"
+#       ip_address = "172.26.16.244"
+#     },
     ## Litehouse VM
     {
       hostname   = "zu7ilthslvd001"
