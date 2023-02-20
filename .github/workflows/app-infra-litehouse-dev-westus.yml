@@ -22,7 +22,7 @@ jobs:
     uses: briteliteimmersive/devops-automation-enablers/.github/workflows/tf-deploy.yml@main
     with:
       tf-module-name: 'app-infra'
-      tf-module-version: '3.0.0'
+      tf-module-version: '3.1.0'
       tf-vars-directory: 'litehouse/dev/westus'
       tf-plan-gh-env: 'lths-tf-plan-non-prod'
       tf-apply-gh-env: 'lths-tf-apply-non-prod'
