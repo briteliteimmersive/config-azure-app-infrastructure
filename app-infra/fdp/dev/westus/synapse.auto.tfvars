@@ -26,7 +26,7 @@ synapse_configs = {
     name                      = "zu7fedpsyd001"
     storage_account_name      = "oziu7npcsafedpd001"
     customer_managed_key_name = "cmk-encryption"
-    filesystem_name           = "fnb-data-dev"
+    filesystem_name           = "collect-transform-workspace"
     spark_pools = [
       {
         name             = "defaultpool"
