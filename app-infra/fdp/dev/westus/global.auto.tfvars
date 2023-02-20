@@ -40,12 +40,18 @@ global_configs = {
         "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
       ]
     },
-#     {
-#       role_definition_id = "9b7fa17d-e63e-47b0-bb0a-15c516ac86ec" ## SQL DB Contributor
-#       object_ids = [
-#         "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
-#       ]
-#     }
+    {
+      role_definition_id = "0c867c2a-1d8c-454a-a3db-ab2ea1bdc8bb" ## Storage File Data SMB Share Contributor
+      object_ids = [
+        "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+      ]
+    },
+    {
+      role_definition_id = "81a9662b-bebf-436f-a333-f67b29880f12" ## Storage Account Key Operator Service Role
+      object_ids = [
+        "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+      ]
+    }
   ]
   central_log_analytics_workspace = {
     subscription_id     = "20aa675b-8108-4d16-9202-9ffe0c35cf57"
