@@ -3,8 +3,13 @@ storage_acc_configs = {
   storage_accounts = [{
     name           = "oziu7npcsafedpd001"
     is_hns_enabled = true
-    containers = [{
-      name = "ci-pilot-poc"
-    }]
+    containers = [
+      {
+        name = "ci-pilot-poc"
+      },
+      {
+        name = "fdp-raw"
+      }
+    ]
   }]
 }
