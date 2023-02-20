@@ -17,7 +17,7 @@ storage_acc_configs = {
       name                = "oziu7npcsafedpd002"
       resource_group_name = "ozi-u7-np-rg-fedp-d002"
       file_shares = [{
-        name  = "ftp-drop"
+        name  = "ocv-ftp-drop"
         quota = 50
       }]
     }
