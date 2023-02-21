@@ -49,6 +49,14 @@ global_configs = {
         "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
       ]
     },
+    {
+      role_definition_id = "12338af0-0e69-4776-bea7-57ae8d297424" ## Key Crypto User
+      object_ids = [
+        "7c0b1757-e9a3-4efb-8d35-05f237773f97", ## mveloso@ocvibe.com
+        "295f70b2-ed69-42d3-bd76-c1bb9be7cefe",  ## riyer@ocvibe.com
+        "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
+      ]
+    },
   ]
   #   central_log_analytics_workspace = {
   #     name = "value"
