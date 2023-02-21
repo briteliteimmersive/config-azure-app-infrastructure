@@ -18,7 +18,7 @@ storage_acc_configs = {
       ]
       local_users = [
       {
-        name = "ftpupload"
+        name = "yinzcamupload"
         permission_scope = [
           {
             resource_name = "yinzcam-dropzone"
