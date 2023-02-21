@@ -4,22 +4,37 @@ storage_acc_configs = {
     {
       name           = "oziu7npcsafedpd001"
       is_hns_enabled = true
+      sftp_enabled   = true
       containers = [
         {
           name = "ci-pilot-poc"
         },
         {
           name = "fdp-raw"
+        },
+        {
+          name = "yinzcam-dropzone"
         }
       ]
+      local_users = [
+      {
+        name = "ftpupload"
+        permission_scope = [
+          {
+            resource_name = "yinzcam-dropzone"
+            service       = "blob"
+            permissions = {
+              create = true
+              delete = true
+              list   = true
+              write  = true
+              read   = true
+            }
+          }
+        ]
+
+      }
+    ]
     },
-    {
-      name                = "oziu7npcsafedpd002"
-      resource_group_name = "ozi-u7-np-rg-fedp-d002"
-      file_shares = [{
-        name  = "ocv-ftp-drop"
-        quota = 50
-      }]
-    }
   ]
 }
