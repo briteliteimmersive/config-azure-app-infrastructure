@@ -38,7 +38,8 @@ global_configs = {
       role_definition_id = "a4417e6f-fecd-4de8-b567-7b0420556985" ## Key Vault Certificates Officer
       object_ids = [
         "7c0b1757-e9a3-4efb-8d35-05f237773f97", ## mveloso@ocvibe.com
-        "295f70b2-ed69-42d3-bd76-c1bb9be7cefe"  ## riyer@ocvibe.com
+        "295f70b2-ed69-42d3-bd76-c1bb9be7cefe",  ## riyer@ocvibe.com
+        "0608e07b-3be8-4227-b807-9ffd3d3b2297" ## Anish
       ]
     },
     {
