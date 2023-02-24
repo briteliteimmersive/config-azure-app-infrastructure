@@ -3,17 +3,12 @@ cdn_configs = {
   cdn = [{
     name = "zu7lthscdd001"
     sku  = "Standard_Microsoft"
-    # endpoints = [{
-    #   name = "temp-testep"
-    #   origin = {
-    #     name      = "test"
-    #     host_name = "oziu7npcsafedpx003.blob.core.windows.net"
-    #   }
-    #   geo_filter = {
-    #     action        = "Allow"
-    #     country_codes = ["US"]
-    #     relative_path = "/"
-    #   }
-    # }]
+    endpoints = [{
+      name = "litehouse-dev"
+      origin = {
+        name      = "litehouse-dev-storage"
+        host_name = "oziu7npcsalthsd001.blob.core.windows.net"
+      }
+    }]
   }]
 }
