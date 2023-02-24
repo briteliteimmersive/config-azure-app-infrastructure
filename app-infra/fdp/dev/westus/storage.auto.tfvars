@@ -17,24 +17,24 @@ storage_acc_configs = {
         }
       ]
       local_users = [
-      {
-        name = "yinzcamupload"
-        permission_scope = [
-          {
-            resource_name = "yinzcam-dropzone"
-            service       = "blob"
-            permissions = {
-              create = true
-              delete = true
-              list   = true
-              write  = true
-              read   = true
+        {
+          name = "yinzcamupload"
+          permission_scope = [
+            {
+              resource_name = "yinzcam-dropzone"
+              service       = "blob"
+              permissions = {
+                create = true
+                delete = true
+                list   = true
+                write  = true
+                read   = true
+              }
             }
-          }
-        ]
+          ]
 
-      }
-    ]
+        }
+      ]
     },
   ]
 }
