@@ -27,6 +27,12 @@ global_configs = {
   }
   role_assignments = [
     {
+      role_definition_id = "422696c9-b553-5874-b0de-2bae83ad9ade" ## Application Provisioner Role for SPN
+      object_ids = [
+        "7714c527-4a0d-4584-977b-f83c013cbab3"
+      ]
+    },
+    {
       role_definition_id = "0663725c-fd2f-567b-bb4c-fbb65771a97b" ## Application Developer Role
       object_ids = [
         "7714c527-4a0d-4584-977b-f83c013cbab3", ## Fdp_Pwc
