@@ -14,6 +14,9 @@ storage_acc_configs = {
         },
         {
           name = "yinzcam-dropzone"
+        },
+        {
+          name = "erp-dropzone"
         }
       ]
       local_users = [
