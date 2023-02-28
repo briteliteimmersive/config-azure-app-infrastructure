@@ -14,9 +14,12 @@ storage_acc_configs = {
         },
         {
           name = "yinzcam-dropzone"
-        },
+        }
+      ]
+      file_shares = [
         {
-          name = "erp-dropzone"
+          name  = "erp-dropzone"
+          quota = 50
         }
       ]
       local_users = [
