@@ -16,12 +16,6 @@ storage_acc_configs = {
           name = "yinzcam-dropzone"
         }
       ]
-      file_shares = [
-        {
-          name  = "erp-dropzone"
-          quota = 50
-        }
-      ]
       local_users = [
         {
           name = "yinzcamupload"
@@ -38,9 +32,18 @@ storage_acc_configs = {
               }
             }
           ]
-
         }
       ]
     },
+    {
+      name           = "oziu7npcsafedpd002"
+      is_hns_enabled = true
+      file_shares = [
+        {
+          name  = "erp-dropzone"
+          quota = 50
+        }
+      ]
+    }
   ]
 }
