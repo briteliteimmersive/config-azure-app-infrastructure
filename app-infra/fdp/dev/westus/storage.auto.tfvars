@@ -5,6 +5,7 @@ storage_acc_configs = {
       name           = "oziu7npcsafedpd001"
       is_hns_enabled = true
       sftp_enabled   = true
+      allow_nested_items_to_be_public = true
       containers = [
         {
           name = "ci-pilot-poc"
