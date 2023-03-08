@@ -15,6 +15,9 @@ storage_acc_configs = {
         },
         {
           name = "yinzcam-dropzone"
+        },
+        {
+          name = "fdp-transform"
         }
       ]
       local_users = [
