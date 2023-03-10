@@ -31,12 +31,12 @@ synapse_configs = {
       {
         name             = "defaultpool"
         node_size_family = "MemoryOptimized"
-        node_size        = "Small"
+        node_size        = "Medium"
         spark_version    = "3.3"
         auto_pause = {
           delay_in_minutes = 15
         }
-        node_count = 3
+        node_count = 6
       }
     ]
     workspace_role_assignments = [
